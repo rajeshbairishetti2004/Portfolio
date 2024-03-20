@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <style>
+        *{
+            margin:0px;
+        }
+        nav{
+            
+            height:40px;
+            width:auto;
+           background-color:  rgba(12, 6, 6, 0.945);
+           text-align: right;
+          padding: 10px;
+          
+        }
+    a{
+       
+       color:azure ;
+     text-decoration: none;
+     margin: 20px;
+    
+
+     }
+     a:hover{
+        color: rgb(243, 155, 73);
+     }
+     .body{
+        height:600px;
+        background-color: rgb(253, 208, 165);
+     }
+     footer{
+        height:30px;
+            width:auto;
+           background-color:  rgba(10, 9, 9, 0.945);
+           text-align: left;
+          padding: 10px;
+     }
+     img{
+        float: right;
+        mix-blend-mode:darken;
+        padding-left: 30px;
+     }
+     button{
+     color: black;
+        padding: 10px;
+        border-radius: 25px;
+        margin-left: 80px;
+        margin-top: 40px;
+     }
+     button a{
+        color: black;
+      
+     }
+     button:hover{
+       
+        color: rgb(29, 27, 26);
+        background-color: rgb(187, 245, 133);
+     }
+     p{ 
+        padding-top: 20px;
+        padding-left: 50px;
+        padding-right: 30px;
+        
+     }
+     h1{ 
+        padding-top: 20px;
+        margin-left: 50px;
+     }
+h5{
+    padding-left: 50px;
+    padding-top: 50px;
+}
+select,option{
+    margin-left: 40px;
+    border-radius: 5px;
+    padding: 3px;
+}
+select:hover{
+    color: rgb(231, 99, 12);
+    background-color: rgb(252, 224, 192);
+}
+.skills{
+    display:flex;
+    height:510px;
+    width:auto;
+    margin:20px;
+    padding: 10px;
+    border:2px black;
+    border-style: solid;
+
+margin: 20px;
+background: linear-gradient(0deg, rgba(34,193,195,1) 0%, rgba(253,187,45,1) 100%);
+}
+.sub-skills{
+            display: grid;
+            height: 500px;
+            width:auto;
+            
+            margin: 5px;
+            text-decoration: none;
+            text-align: center;
+            
+            flex-wrap: wrap;
+            grid-template-columns: 1fr 1fr 1fr 1fr 1fr;  
+                
+            
+        }
+        .sub-skills a{
+            color: black;
+            
+        }
+.sub-skills :hover{
+    color: chocolate;
+}
+        .a1,.a2,.a3,.a4,.a5{
+            display: grid;
+            height: 400px;
+            width:200px;
+            border: 2px black solid;
+            margin: 5px;
+            text-decoration: none;
+            text-align: center;
+            flex-direction:row;
+            flex-wrap: wrap;  
+            grid-row-start: 4;
+            
+            margin: 17px;
+            border-radius: 20px;
+            background-color: aliceblue;
+            font-size: larger;
+            padding-top: 20px;
+        } 
+        .a6{
+            grid-row-start: 1;
+            grid-row-end: 2;
+            grid-column-start:1 ;
+            grid-column-end:6 ;
+        }
+        .a1,.a2,.a3,.a4,.a5 p{
+            font-size: small;
+        }
+.details{
+    display: flex;
+    border: 2px black;
+    border-style: solid;
+    border-radius: 5px;
+    margin: 20px;
+    padding: 20px;
+    background-color: rgb(248, 248, 186);
+}
+.details a{
+    text-decoration: none;
+color: black;
+
+}
+.details a:hover{
+    color:chocolate;
+
+}
+
+    </style>
+</head>
+<body>
+    <nav>  
+       
+        <a href="#" target="_blank"><i>Rajesh's Portfolio</i></a>
+    </nav>
+    <div class="body">
+        <img src="Rajesh.jpeg"></img>  
+    <h5>Hello! I'm</h5> 
+    <h1>Rajesh<br>Bairishetti</h1>
+   
+    <p>a student of CBIT(Chaitanya Bharathi Institute of Technology) <br>in the stream of CSE-AIML(Computer Science and Artificial Intelligence)<br>currently in 2nd year-4th semester</p>
+    <button><a href="resumeofrajesh.docx" target="_blank">Get Resume</a></button>
+    <h1>About Me:</h1>
+    <p>I am a dedicated creative professional with a passion for visual storytelling and design innovation. With a background in graphic design and multimedia arts, I bring a unique blend of technical skill and artistic vision to every project. My journey in the industry has equipped me with versatile expertise in branding, illustration, and user experience design. Collaboration is at the heart of my process, as I believe in the power of teamwork to elevate ideas and bring them to life. Committed to continuous learning and growth, I am driven by a relentless pursuit of excellence and a desire to make a meaningful impact through my work.</p>
+    </hr>
+</div>
+
+<div class="skills">
+    
+    <div class="sub-skills">
+      <h1 align="center"><a href="#" class="a6">My Skills:</a></h1>
+    <a href="#" class="a1"><h2>Web Development</h2>
+
+       <p>I exhibit my foundational grasp of web programming essentials. From HTML for structuring content to CSS for styling, I've begun to navigate the basics of web development. While my proficiency is at an introductory level, my enthusiasm for mastering more advanced concepts fuels my journey towards becoming a proficient web developer.</p>
+    </a>
+    <a href="#" class="a2"><h2>C language</h2>
+        <p>Understanding basic syntax and data types to exploring control structures and functions, I've mastered the fundamental concepts of C. While my expertise may be in its infancy, my dedication to learning and applying these principles is unwavering, setting a solid groundwork for further exploration and development in C programming.</p>
+    </a>
+    <a href="#" class="a3"><h2>Java Programming</h2>
+        <p>
+            From grasping basic syntax and data types to exploring object-oriented principles, I've embarked on the journey of Java development. While my expertise may be in its infancy, my commitment to learning and applying these fundamentals is unwavering, setting a sturdy groundwork for further growth in Java programming. Explore my Java projects to witness my journey toward becoming a proficient Java programmer.
+</p>
+    </a>
+    <a href="#" class="a4"><h2>Python Programming</h2>
+        <p>From mastering basic syntax and data structures to exploring fundamental concepts like loops and functions, I've laid a solid foundation in Python. While my expertise is at a beginner level, my dedication to advancing my skills and tackling more complex challenges drives my journey in Python development. Explore my portfolio to witness my early strides in Python programming.</p>
+    </a>
+    <a href="#" class="a5"><h3>MongoDB</h3>
+        <p> I demonstrate my foundational understanding of MongoDB. From navigating basic CRUD operations to comprehending document-oriented data storage, I've begun to delve into MongoDB's fundamentals. While my expertise remains at an introductory stage, my enthusiasm for mastering advanced features and optimizing database performance propels my journey in MongoDB development.</p>
+    </a>
+</div>
+ </div>
+
+ <div class="details">
+ <h3 align="center">for more details: </h3>
+ <a href="#"><i style="font-size:24px" class="fa">&#xf095;</i>7799397314</a>
+ <a href="#">
+    <i style="font-size:24px" class="fa">&#xf0e0;</i>
+rajeshbairisetti234@gmail.com</a>
+ 
+ 
+   </div>
+    <footer>
+        
+        <a href="#"> FAQs</a>
+            <a href="#">ABOUT</a>
+            <a href="#">&#169</a>
+    </footer>
+</body>
+</html> 
